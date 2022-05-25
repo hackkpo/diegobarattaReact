@@ -1,0 +1,33 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    background-color: #18bc9c;
+}
+
+section h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.texto {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    width: 40%;
+    font-size: 20px;
+    color: white;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+}
+
+.texto p {
+    margin: 10px;
+}

@@ -4,6 +4,8 @@ import './includes/index.css';
 import NavVar from './NavVar';
 import MainBody from './MainBody';
 import Portfolio from './Portfolio';
+import Contacto from './Contacto';
+import Acerca from './Acerca';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +14,8 @@ root.render(
     <NavVar />
     <MainBody />
     <Portfolio />
+    <Acerca />
+    <Contacto />
   </React.StrictMode>
 );
 

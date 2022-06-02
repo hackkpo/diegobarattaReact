@@ -6,6 +6,7 @@ import MainBody from './MainBody';
 import Portfolio from './Portfolio';
 import Contacto from './Contacto';
 import Acerca from './Acerca';
+import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <Portfolio />
     <Acerca />
     <Contacto />
+    <Footer />
   </React.StrictMode>
 );
 

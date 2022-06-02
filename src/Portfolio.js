@@ -4,7 +4,7 @@ import WebPages from './WebPages';
 
 const Portfolio = () => {
   return (
-    <div className='portfolio'>
+    <div id='portfolio'>
         <h1>Portfolio</h1>
         <ul className='webpages'>
             <WebPages />

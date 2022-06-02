@@ -5,7 +5,7 @@ const Acerca = () => {
 
     return (
 
-        <section>            
+        <section id='acerca'>            
             <h1>acerca</h1> 
             <span className='texto'>
                 <p>

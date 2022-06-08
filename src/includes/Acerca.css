@@ -1,17 +1,14 @@
-section {
+.acerca {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 75vh;
-    width: 100%;
+    align-items: center;    
     background-color: #18bc9c;
 }
 
-section h1 {
+.acerca h1 {
     color: white;
-    font-size: 3rem;
-    margin: 0;
+    font-size: 3rem;    
     text-transform: uppercase;
     font-weight: 700;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -30,4 +27,11 @@ section h1 {
 
 .texto p {
     margin: 10px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .texto {
+        width: 100%;
+    }
 }

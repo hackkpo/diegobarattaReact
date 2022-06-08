@@ -9,10 +9,11 @@ footer {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     flex-direction: column;
+    padding-top: 30px;
 }
 
 h1 {
-    padding: 10px;
+    margin: 10px;
     color: white;
 }
 
@@ -26,13 +27,17 @@ footer ul {
 
 footer li {
     list-style-type: none;
+    margin: 10px;
+    display: flex;
+}
+
+footer a {
     border-radius: 50%;
     padding: 10px;
     border: 1px solid white;
-    margin: 10px;
 }
 
-footer li:hover {
+footer a:hover {
     background-color: white;
 }
 

@@ -4,10 +4,17 @@
     align-items: center;
     padding-top: 10vh;
     width: 100%;
-    height: 75vh;
     background-color: white;    
     justify-content: center; 
     font-family: "Lato";   
+}
+
+.contacto h1 {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  color: #2c3e50;
 }
 
 form{    
@@ -111,4 +118,12 @@ textarea {
     white-space: nowrap;   
     user-select: none;
     margin: 70px 0 0 10px;
+}
+
+@media screen and (max-width: 767px) {
+
+  form {
+      width: 100%;
+  }
+  
 }

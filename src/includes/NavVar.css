@@ -2,13 +2,14 @@
     position: sticky; 
     top: 0;
     width: 100%;
-    background-color: #2c3e50;
-    height: 10vh;
+    background-color: #2c3e50;    
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    z-index: 9;
 }
 
 .navVar h1 {
@@ -25,6 +26,19 @@
     font-weight: bold;
 }
 
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
 .navVar h1:hover, li:hover {
     color: #18bc9c;
     cursor: pointer;
@@ -32,4 +46,27 @@
 
 .navVar ul li {
     margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .navVar ul {
+        display: none;      
+        flex-direction: column;   
+        width: 100%;     
+        margin: 0 20px 20px auto;
+        text-align: right;
+    }
+
+    .navVar ul.show {
+        display: flex;
+    }
+
+    .navVar li {
+        margin: 5px 0 5px 0;
+    }
+    
+    .hamburger {
+        display: block;
+    }
 }

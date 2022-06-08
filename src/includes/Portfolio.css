@@ -1,10 +1,25 @@
+.portfolio {    
+    width: 100%;
+    text-align: center;    
+    background-color: white;
+}  
+  
+.portfolio h1 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    color: #2c3e50;
+}
 
 .webpages {
-    display: flex;    
-    flex-wrap: wrap;
+    display: flex;   
     flex-direction: row;
     list-style: none;
-    justify-content: space-evenly;
+}
+
+.webpages li {
+    margin-right: 10px;
 }
 
 .webpages img {

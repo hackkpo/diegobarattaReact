@@ -5,7 +5,7 @@ const Menu = () => {
     const menu = ['Portfolio', 'Acerca', 'Contacto'];
   
     return (
-        <ul>
+        <ul id="navVarMenu">
             {
                 menu.map( item => (
                     <MenuItem 

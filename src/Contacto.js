@@ -30,7 +30,7 @@ const Contacto = () => {
   
 
     return (
-        <section className='contacto'>
+        <section className='contacto' id='Contacto'>
             <h1>Contactame</h1>
             <form ref={form} onSubmit={sendEmail} >
                 <div className="input-container ic1">

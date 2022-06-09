@@ -1,7 +1,7 @@
 import React from 'react';
 import './includes/Footer.css';
 import redes from './Assets/redesSociales.js';
-import { faTwitter, faFacebook, faLinkedinIn, faGithub} from "@fortawesome/free-brands-svg-icons";
+import { faTwitter, faLinkedinIn, faGithub} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
                             className="pageLink"
                             href={link}
                             target="_blank" 
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                         > 
                         {
                             {

@@ -11,7 +11,7 @@ const WebPages = () => {
                         className="pageLink"
                         href={link}
                         target="_blank" 
-                        rel="noreferrer"                                               
+                        rel="noopener noreferrer"                                               
                     > 
                         <img 
                             src={image}

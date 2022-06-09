@@ -4,7 +4,7 @@ import WebPages from './WebPages';
 
 const Portfolio = () => {
   return (
-    <section className='portfolio'>
+    <section className='portfolio' id='Portfolio'>
         <h1>Portfolio</h1>
         <ul className='webpages'>
             <WebPages />
@@ -13,4 +13,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Portfolio;

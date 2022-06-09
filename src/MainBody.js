@@ -6,7 +6,7 @@ const MainBody = () => {
 
     return (
         
-        <section className='presentation'>
+        <section className='presentation' id='Home'>
             <img src='./images/profile.png' alt='No se pudo cargar la imagen' />
             <h1>diego fabian baratta</h1>            
             <ul className='skills'>
